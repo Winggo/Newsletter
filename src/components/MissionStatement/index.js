@@ -142,7 +142,7 @@ const MissionStatement = () => {
                         <p className={styles.stats}>
                             AND 18 PEOPLE CAME TO KNOW JESUS
                         </p>
-                        <p>
+                        <p className={styles.rolesPara}>
                             AS THEIR SAVIOR AND LORD.
                         </p>
                         <p className={styles.rolesPara}>
