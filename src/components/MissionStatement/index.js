@@ -83,7 +83,7 @@ const MissionStatement = () => {
                             2019.
                         </p>
                         <p className={styles.spiritualClimateBottom}>
-                            OUR MISSION FIELD CAMPUS OF CHAING MAI RAJHABAT UNIVERSITY (CRMU) BOASTS A MUCH 
+                            OUR MISSION FIELD CAMPUS OF CHAING MAI RAJHABAT UNIVERSITY (CMRU) BOASTS A MUCH 
                             LARGER CHRISTIAN PERCENTAGE OF 10%. WE PRAY THAT CMRU REMAINS A SOURCE OF 
                             CHRISTIAN REVIVAL AND CATALYST FOR GROWTH IN THE NORTHERN REGION.
                         </p>
@@ -103,14 +103,14 @@ const MissionStatement = () => {
                 <Fade big>
                     <div className={styles.rolesText}>
                         <p className={styles.rolesPara}>
-                            OUR TEAM HAD 12 CAMPUS DAYS AT CHIANG MAI RAJABHAT UNIVERSITY (CRMU) 
+                            OUR TEAM HAD 12 CAMPUS DAYS AT CHIANG MAI RAJABHAT UNIVERSITY (CMRU) 
                             TO FORM RELATIONSHIPS WITH THAI STUDENTS AND INTRODUCE THEM TO THE LOVE 
                             OF CHRIST. MONDAY THROUGH FRIDAY, AFTER MORNING DEVOTIONAL ON THE BOOK 
                             OF JOHN, WE WOULD HEAD OUT TO CAMPUS AND ARRIVE BY 11:30AM TO EAT AT THEIR 
                             CAFETERIA (CANTEEN). FROM 12-4PM, WE WOULD BREAK INTO EVANGELISM GROUPS AND 
                             WORK WITH TCCC (THAILAND CAMPUS CRUSADE FOR CHRIST) KEY STUDENTS TO WALK AROUND 
-                            CAMPUS AND MAKE FRIENDS WITH CRMU STUDENTS WITH THE PURPOSE OF EXCHANGING 
-                            CULTURES AND GIVING THEM A GLIMPSE OF GOD'S LOVE THROUGHOUT INTENTIONAL 
+                            CAMPUS AND MAKE FRIENDS WITH CMDU STUDENTS WITH THE PURPOSE OF EXCHANGING 
+                            CULTURES AND GIVING THEM A GLIMPSE OF GOD'S LOVE THROUGH INTENTIONAL 
                             INTERACTIONS WITH THEM.
                         </p>
                         <p className={styles.rolesPara}>
@@ -155,7 +155,7 @@ const MissionStatement = () => {
                     </div>
                 </Fade>
                 <Fade>
-                    <img src={pic8} className={styles.pic8} alt='Preschool next to CRMU.' />
+                    <img src={pic8} className={styles.pic8} alt='Preschool next to CMRU.' />
                 </Fade>
                 <Fade>
                     <div className={styles.testimonyHeader}>
@@ -265,7 +265,7 @@ const MissionStatement = () => {
                             <p>
                                 ONLY THROUGH GOD'S PERSISTENCE AND GRACIOUSNESS, TORM ENDED UP RECEIVING CHRIST AND BECOMING MY 
                                 DISCIPLE. REMEMBERING THE CORE PURPOSE OF OUR MISSIONS TRIP, HOWEVER, TO GROW THE TCCC COMMUNITY, I 
-                                INTRODUCED TORM TO ANOTHER KEY THAI STUDENT, JO, TO CONTINUE DU=OING WEEKLY FOLLOW-UPS IN ORDER FOR TORM 
+                                INTRODUCED TORM TO ANOTHER KEY THAI STUDENT, JO, TO CONTINUE DOING WEEKLY FOLLOW-UPS IN ORDER FOR TORM 
                                 TO CONTINUE GROWING IN HIS FAITH.
                             </p>
                             <p>
@@ -443,7 +443,7 @@ const MissionStatement = () => {
                                 <b>ELI GSN</b>
                             </h2>
                             <p className={styles.reflectionBody}>
-                                GOD IS FAITHFUL. HE WILL FINISH THE GOOD WORK HE HAS STARTED IN EACH OF OUR LIVES, IN CRMU, THE GOSPEL 
+                                GOD IS FAITHFUL. HE WILL FINISH THE GOOD WORK HE HAS STARTED IN EACH OF OUR LIVES, IN CMRU, THE GOSPEL 
                                 SEEDS PLANTED IN THAILAND.<br></br>PHILIPPIANS 1:3-6 
                             </p>
                         </div>
