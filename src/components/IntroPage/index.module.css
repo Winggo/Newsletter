@@ -1,0 +1,16 @@
+.intro {
+    margin-top: 40vh;
+    text-align: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.smallPrint {
+    letter-spacing: 3px;
+}
+
+.title {
+    letter-spacing: 5px;
+    border-style: solid;
+    padding: 15px;
+}

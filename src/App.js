@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/header.js';
+import { Parallax } from 'react-spring/renderprops-addons';
+import { Route } from 'react-router-dom'; 
+
+import IntroPage from './components/IntroPage'; 
+import MissionStatement from './components/MissionStatement';
+// import SpiritualClimate from './components/SpiritualClimate';
+import ThankYouPage from './components/ThankYouPage';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  	return (
+        <div className="App">  			
+			<Parallax pages={5.9}>
+				{/* <Route path='/' component={() => <IntroPage />} /> */}
+				<Route path='/' component={() => <MissionStatement />} /> 
+				{/* <SpiritualClimate /> */}
+				{/* <ThankYouPage /> */}
+            </Parallax>
+        	<Header />
+        </div>
   );
 }
 
