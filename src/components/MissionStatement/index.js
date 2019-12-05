@@ -29,9 +29,11 @@ const MissionStatement = () => {
                     </h1>
                 </div>
             </Reveal>
-            {/* <Fade left> */}
-                <div className={styles.statementPage}>
+            <div className={styles.statementPage}>
+                <Fade>
                     <img src={pic1} className={styles.pic1} alt='EV day.' />
+                </Fade>
+                <Fade>
                     <div className={styles.mission}>
                         <h1 className={styles.missionStatement}>MISSION STATEMENT</h1>
                         <p className={styles.missionText}>
@@ -40,7 +42,11 @@ const MissionStatement = () => {
                             IN <b>JESUS CHRIST</b>.
                         </p>
                     </div>
+                </Fade>
+                <Fade left>
                     <img src={pic2} className={styles.pic2} alt='EV day.' />
+                </Fade>
+                <Fade>
                     <div className={styles.text2}>
                         <p>
                             "AND LET US NOT GROW WEARY OF DOING GOOD, FOR IN DUE SEASON
@@ -50,12 +56,22 @@ const MissionStatement = () => {
                         </p>
                         <p className={styles.verse}><b>GALATIANS 6: 9-10</b></p>
                     </div>
+                </Fade>
+                <Fade right>
                     <img src={pic3} className={styles.pic3} alt='EV day.' />
+                </Fade>
+                <Fade left>
                     <h1 className={styles.rolesTitle}>
                         SPIRITUAL CLIMATE OF <b>THAILAND</b>
                     </h1>
+                </Fade>
+                <Fade right>
                     <img src={pic4} className={styles.pic4} alt='EV day.' />
+                </Fade>
+                <Fade>
                     <img src={pic5} className={styles.pic5} alt='From the top of Rajhabat University' />
+                </Fade>
+                <Fade right>
                     <div className={styles.spiritualClimate}>
                         <p className={styles.spiritualClimateTop}>
                             THE SPIRITUAL CLIMATE OF THAILAND HAS EXPERIENCED A SUBTLE SHIFT OVER THE PAST 
@@ -72,11 +88,19 @@ const MissionStatement = () => {
                             CHRISTIAN REVIVAL AND CATALYST FOR GROWTH IN THE NORTHERN REGION.
                         </p>
                     </div>
+                </Fade>
+                <Fade left>
                     <h1 className={styles.roles}>
                         OUR <b>ROLES</b> ON CAMPUS
                     </h1>
+                </Fade>
+                <Fade right>
                     <img src={pic6} className={styles.pic6} alt='EV day.' />
+                </Fade>
+                <Fade left>
                     <img src={pic7} className={styles.pic7} alt='Worship in the morning.' />
+                </Fade>
+                <Fade right>
                     <div className={styles.rolesText}>
                         <p className={styles.rolesPara}>
                             OUR TEAM HAD 12 CAMPUS DAYS AT CHIANG MAI RAJABHAT UNIVERSITY (CRMU) 
@@ -129,7 +153,11 @@ const MissionStatement = () => {
                             THE MANY PEOPLE WE MET.
                         </p>
                     </div>
+                </Fade>
+                <Fade>
                     <img src={pic8} className={styles.pic8} alt='Preschool next to CRMU.' />
+                </Fade>
+                <Fade>
                     <div className={styles.testimonyHeader}>
                         <h1 className={styles.headerText}>
                             <b>TESTIMONIES</b>
@@ -139,6 +167,8 @@ const MissionStatement = () => {
                         </h5>
                         <hr className={styles.line}></hr>
                     </div>
+                </Fade>
+                <Fade>
                     <div className={styles.testimony1}>
                         <div className={styles.halves}>
                             <p>
@@ -193,12 +223,16 @@ const MissionStatement = () => {
                             </p>
                         </div>
                     </div>
+                </Fade>
+                <Fade>
                     <div className={styles.testimonyHeader2}>
                         <h5 className={styles.kevin}>
                             KEVIN TRAN
                         </h5>
                         <hr className={styles.line}></hr>
                     </div>
+                </Fade>
+                <Fade>
                     <div className={styles.testimony2}>
                         <div className={styles.halves}>
                             <p>
@@ -251,11 +285,17 @@ const MissionStatement = () => {
                             </p>
                         </div>
                     </div>
+                </Fade>
+                <Fade bottom>
                     <img src={pic9} className={styles.pic9} alt='Temple visit on Saturady!' />
-                    <h1 className={styles.reflectionHeader}>
-                        <b>REFLECTIONS</b>
-                    </h1>
-                    <div className={styles.reflections}>
+                </Fade>
+                <Fade left>
+                <h1 className={styles.reflectionHeader}>
+                    <b>REFLECTIONS</b>
+                </h1>
+                </Fade>
+                <div className={styles.reflections}>
+                    <Fade>
                         <div className={styles.reflection}>
                             <h2 className={styles.reflectionAuthor}>
                                 <b>ASHLEY HONG</b>
@@ -276,6 +316,8 @@ const MissionStatement = () => {
                                 HOW FAITHFUL GOD IS IN THE LIVES OF THAI STUDENTS.
                             </p>
                         </div>
+                    </Fade>
+                    <Fade>
                         <div className={styles.reflection}>
                             <h2 className={styles.reflectionAuthor}>
                                 <b>DAVID KIM</b>
@@ -295,6 +337,8 @@ const MissionStatement = () => {
                                 CHRIST WOULD.
                             </p>
                         </div>
+                    </Fade>
+                    <Fade>
                         <div className={styles.reflection}>
                             <h2 className={styles.reflectionAuthor}>
                                 <b>KEVIN TRAN</b>
@@ -316,6 +360,8 @@ const MissionStatement = () => {
                                 IN BETWEEN.
                             </p>
                         </div>
+                    </Fade>
+                    <Fade>
                         <div className={styles.reflection}>
                             <h2 className={styles.reflectionAuthor}>
                                 <b>WINGGO TSE</b>
@@ -338,6 +384,8 @@ const MissionStatement = () => {
                                 GREAT COMMISSION ALREADY.
                             </p>
                         </div>
+                    </Fade>
+                    <Fade>
                         <div className={styles.reflection}>
                             <h2 className={styles.reflectionAuthor}>
                                 <b>ANDREW PARK</b>
@@ -356,6 +404,8 @@ const MissionStatement = () => {
                                 PROVIDES. WITHOUT HIM, NOTHING WOULD'VE BEEN POSSIBLE.
                             </p>
                         </div>
+                    </Fade>
+                    <Fade>
                         <div className={styles.reflection}>
                             <h2 className={styles.reflectionAuthor}>
                                 <b>KEISHA QUIRMIT</b>
@@ -377,6 +427,8 @@ const MissionStatement = () => {
                                 GOSPEL REALLY IS THE BEST NEWS AND SALVATION REALLY IS THE GREATEST GIFT WE HAVE BEEN GIVEN.
                             </p>
                         </div>
+                    </Fade>
+                    <Fade>
                         <div className={styles.reflection}>
                             <h2 className={styles.reflectionAuthor}>
                                 <b>CALVIN KIM</b>
@@ -395,6 +447,8 @@ const MissionStatement = () => {
                                 SEEDS PLANTED IN THAILAND.<br></br>PHILIPPIANS 1:3-6 
                             </p>
                         </div>
+                    </Fade>
+                    <Fade>
                         <div className={styles.reflection}>
                             <h2 className={styles.reflectionAuthor}>
                                 <b>ZOE CHEN</b>
@@ -404,10 +458,10 @@ const MissionStatement = () => {
                                 OF HEALING FOR MYSELF.
                             </p>
                         </div>
-                    </div>
+                    </Fade>
                 </div>
-            {/* </Fade> */}
-            <Reveal effect="fadeInDown" effectOut="fadeInUp">
+            </div>
+            <Reveal effect="fadeInUp" effectOut="fadeInDown">
                 <div className={styles.outtro}>
                     <h1 className={styles.thai}>
                         ขอขคุณ

@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import styles from './header.module.css';
 
-export default () => {
+function Header() {
     return (
         <Navbar className={styles.nav}>
             <Navbar.Brand className={styles.brand}>
@@ -11,3 +11,5 @@ export default () => {
         </Navbar>
     );
 }
+
+export default Header;
