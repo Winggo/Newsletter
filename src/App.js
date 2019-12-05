@@ -12,11 +12,7 @@ class App extends Component {
 		return (
 			<div className="App">  			
 				<Parallax pages={5.9} ref={ref => (this.parallax = ref)}>
-					{/* <Route path='/' component={() => <IntroPage />} /> */}
-					<Route path='/' component={() => <MissionStatement />} /> 
-					{/* <SpiritualClimate /> */}
-					{/* <ThankYouPage /> */}
-					
+					<Route path='/' component={() => <MissionStatement />} /> 					
 				</Parallax>
 				<div onClick={() => console.log(this.parallax.scrollTo(0))}>
 					<Header />

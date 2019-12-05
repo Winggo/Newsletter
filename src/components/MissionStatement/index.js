@@ -94,13 +94,13 @@ const MissionStatement = () => {
                         OUR <b>ROLES</b> ON CAMPUS
                     </h1>
                 </Fade>
-                <Fade right>
+                <Fade big>
                     <img src={pic6} className={styles.pic6} alt='EV day.' />
                 </Fade>
                 <Fade left>
                     <img src={pic7} className={styles.pic7} alt='Worship in the morning.' />
                 </Fade>
-                <Fade right>
+                <Fade big>
                     <div className={styles.rolesText}>
                         <p className={styles.rolesPara}>
                             OUR TEAM HAD 12 CAMPUS DAYS AT CHIANG MAI RAJABHAT UNIVERSITY (CRMU) 
@@ -461,7 +461,7 @@ const MissionStatement = () => {
                     </Fade>
                 </div>
             </div>
-            <Reveal effect="fadeInUp" effectOut="fadeInDown">
+            <Reveal effect="fadeInDown" effectOut="fadeInUp">
                 <div className={styles.outtro}>
                     <h1 className={styles.thai}>
                         ขอขคุณ
