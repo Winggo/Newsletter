@@ -39,7 +39,7 @@ const MissionStatement = () => {
                         <p className={styles.missionText}>
                             TO FULFILL THE GREAT COMMISION THROUGH THE
                             POWER OF THE HOLY SPIRIT BY WINNING PEOPLE TO FAITH
-                            IN <b>JESUS CHRIST</b>.
+                            IN <b><font color='#f25044'>JESUS CHRIST</font></b>.
                         </p>
                     </div>
                 </Fade>
@@ -54,7 +54,7 @@ const MissionStatement = () => {
                             LET US DO GOOD TO EVERYONE, AND ESPECIALLY TO THOSE WHO ARE OF THE 
                             HOUSEHOLD OF FAITH."
                         </p>
-                        <p className={styles.verse}><b>GALATIANS 6: 9-10</b></p>
+                        <p className={styles.verse}><b><font color='#f25044'>GALATIANS 6: 9-10</font></b></p>
                     </div>
                 </Fade>
                 <Fade right>
@@ -62,7 +62,7 @@ const MissionStatement = () => {
                 </Fade>
                 <Fade left>
                     <h1 className={styles.rolesTitle}>
-                        SPIRITUAL CLIMATE OF <b>THAILAND</b>
+                        SPIRITUAL CLIMATE OF <b><font color='#f25044'>THAILAND</font></b>
                     </h1>
                 </Fade>
                 <Fade right>
@@ -91,7 +91,7 @@ const MissionStatement = () => {
                 </Fade>
                 <Fade left>
                     <h1 className={styles.roles}>
-                        OUR <b>ROLES</b> ON CAMPUS
+                        OUR <b><font color='#f25044'>ROLES</font></b> ON CAMPUS
                     </h1>
                 </Fade>
                 <Fade big>
